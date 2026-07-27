@@ -1,0 +1,15 @@
+{
+  "name": "stride-guide-stage-1",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["dashboard", "shared"],
+  "scripts": {
+    "dev": "npm --workspace dashboard run dev",
+    "build": "npm --workspace dashboard run build",
+    "test": "npm --workspace dashboard run test",
+    "typecheck": "npm --workspace dashboard run typecheck"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
